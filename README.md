@@ -15,7 +15,7 @@ To play the Totogram, the player arranges a set of N tiles numbered from 1 to N,
  Step2: call on function **medians()** to compute median and it creates a list which as all the medians.  
  Step3: function **leveltree()** is called to build a balanced binary tree with an exception at level two which has three nodes  
  Step4: **diff()** is called to find the maximum difference in built tree.  
- Step5: loop is constructed which call the function **optimize()** to reorders the tree to reduce the maximum difference found so far.  
+ Step5: loop is constructed which calls the function **optimize()** to reorder the tree to reduce the maximum difference found so far.  
  Step6: loop terminates if no more optimization could be made with the tree constructed.  
  
 ##Steps to run the code
