@@ -11,12 +11,12 @@ To play the Totogram, the player arranges a set of N tiles numbered from 1 to N,
 ![alt tag](https://github.com/Nethracs/totogram/blob/master/totogram.png)
 
 ##Algorithm
- Step1:Find the total number of nodes for the given height, function num_nodes() is implemented to compute this.  
- Step2:call on function medians() to compute median and it creates a list which as all the medians.  
- Step3:function leveltree() is called to build a balanced binary tree with an exception at level two which has three nodes  
- Step4:diff() is called to find the maximum difference in built tree.  
- Step5:loop is constructed which call the function optimize() to reorders the tree to reduce the maximum difference found so far.  
- Step6:loop terminates if no more optimization could be made with the tree constructed.  
+ Step1: Find the total number of nodes for the given height, function **num_nodes()** is implemented to compute this.  
+ Step2: call on function **medians()** to compute median and it creates a list which as all the medians.  
+ Step3: function **leveltree()** is called to build a balanced binary tree with an exception at level two which has three nodes  
+ Step4: **diff()** is called to find the maximum difference in built tree.  
+ Step5: loop is constructed which call the function **optimize()** to reorders the tree to reduce the maximum difference found so far.  
+ Step6: loop terminates if no more optimization could be made with the tree constructed.  
  
 ##Steps to run the code
  python totogram.py k
