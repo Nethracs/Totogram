@@ -19,7 +19,7 @@ To play the Totogram, the player arranges a set of N tiles numbered from 1 to N,
  Step6: loop terminates if no more optimization could be made with the tree constructed.  
  
 ##Steps to run the code
- python totogram.py k
+ **python totogram.py k**
  
  Where k is depth of the tree
 
